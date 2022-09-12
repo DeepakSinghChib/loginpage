@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="style.css" rel="stylesheet">
+    <!--linking my external css file to style my login page-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--linking the google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <!--creating the div with class as container that will be going to our main div-->
+        <div class="signin" ">
+            <p class=" heading">login to your account</p><br>
+            <p>Login using social networks</p><br>
+            <div class="buttons">
+                <a href="https://www.facebook.com/login.php/" target="_blank">
+                    <!--creating a anchor tag that will redirect us to a facebook login page-->
+                    <button class="grey">f</button>
+                </a>
+                <!--making icon inside a button -->
+                <a href="https://accounts.google.co.in/" target="_blank">
+                    <!--creating a anchor tag that will redirect us to a google login page-->
+                    <button class="red">g+</button>
+                </a>
+                <!--making icon inside a button -->
+                <a href="https://www.linkedin.com/login" target="_blank">
+                    <!--creating a anchor tag that will redirect us to a linked in login page-->
+                    <button class="grey">in</button>
+                </a>
+                <!--making icon inside a button -->
+
+            </div>
+            <br>
+
+
+            <h3>OR</h3><br><br>
+            <form>
+
+                <label>Email</label>
+                <input class="len1" type="email" placeholder="abc@gmail.com" required>
+                <!--creating an input field where user will type his email id-->
+                <br>
+
+                <label>Password</label>
+                <input class="len" type="password" placeholder="enter your password" required>
+                <!--creating an input field where user will type his email id-->
+
+                <div class="signin1">
+                    <!--creating a class that will be having two submit buttons-->
+                    <input type="submit" value="sign in">
+                    <input type="submit" value="forget password">
+                </div>
+            </form>
+
+
+        </div>
+        <div class="signup">
+            <p class="signup1">new here ?</p><br><br>
+            <p class="signup2"> sign up and discover a great amount of new opportunities !</p>
+            <br><br>
+            <input type="submit" value="sign up">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

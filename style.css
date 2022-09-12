@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/*making the whole page margin and padding as 0px*/
+
+.container{
+    height:625px;
+    width:100%;
+    display: flex;
+}
+/*styling our main div*/
+
+.signin{
+   background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-047-x.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=16ea540dabc12e86960a8b74ab282c3f");
+   background-repeat: no-repeat;
+   background-size: cover;
+    width:65%;
+    margin-left: 2px;
+}/*styling our sub  div with class as signin*/
+
+.heading{
+    padding-top: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    color:black;
+    font-family: 'Lobster', cursive;
+}
+p{
+    text-align: center;
+color:grey;
+font-size: large;
+font-family: 'Lobster', cursive;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    border-radius: 15px;
+    width:40px;
+    height:40px;
+    color:whitesmoke;
+}
+.grey{
+    background-color: grey;
+}
+.red{
+    background-color: red;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    padding-left: 430px;
+    color:grey;
+}
+label{
+    font-family: 'Lobster', cursive;
+    padding-left: 150px;
+    color:grey;
+    font-size: xx-large;
+}
+.len{
+    margin-left: 105px;
+    padding-left: 75px;
+    width:200px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: grey;
+       opacity: 0.4;
+    color:rgb(252, 17, 17);
+}
+
+.len1{
+    margin-left: 150px;
+    padding-left: 80px;
+    width:200px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: grey;
+       opacity: 0.4;
+    color:rgb(252, 17, 17);
+}
+
+
+
+.signin1  {
+    font-family: 'Lobster', cursive;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 20px;
+    display:flex;
+    text-transform: capitalize;
+    color:grey;
+    padding-left: 50px;
+    justify-content: space-around;
+   }
+
+   .signin1 input{
+    margin-top: 5px;
+    border-radius: 20px;
+    font-size: large;
+    background-color: rgb(115, 180, 147);
+    text-transform: capitalize;
+    width:200px;
+    height: 40px;
+    color:#eaeee7;
+  font-size: x-large;
+  font-family: 'Lobster', cursive;
+ 
+      
+   }
+
+
+.signup{
+    width:34%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsrnoKT5q2u836s2JoY0LEt64cvVDCdZPBQ&usqp=CAU");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    
+}
+.signup1 {
+    color:#eaeee7;
+    text-transform: capitalize;
+    text-align:  center;
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+    
+}
+.signup2{
+    color:#e0dd6c;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-family: 'Lobster', cursive;
+}
+.signup input{
+    margin-left: 150px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color:black;
+    background-color: #eaeee7;
+    font-size:x-large;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
